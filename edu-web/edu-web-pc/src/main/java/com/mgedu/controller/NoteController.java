@@ -1,7 +1,7 @@
 package com.mgedu.controller;
 
-import com.mgedu.NoteService;
-import com.myedu.dto.NoteBean;
+import com.mgedu.api.INoteService;
+import com.mgedu.dto.NoteBean;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
@@ -18,7 +18,7 @@ import javax.validation.Valid;
 public class NoteController {
 
     @Autowired
-    NoteService noteService;
+    INoteService noteService;
 
 
     // Create a new Note

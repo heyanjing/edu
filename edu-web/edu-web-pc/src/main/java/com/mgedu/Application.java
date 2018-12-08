@@ -7,8 +7,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.mgedu")
 @EnableJpaAuditing
 @EnableTransactionManagement
 @Slf4j

@@ -1,6 +1,7 @@
-package com.myedu.api;
+package com.mgedu.api;
 
-import com.myedu.dto.NoteBean;
+import com.mgedu.dto.NoteBean;
+import org.springframework.stereotype.Component;
 
 /**
  * @author heyanjing

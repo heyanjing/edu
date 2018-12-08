@@ -2,8 +2,8 @@ package com.mgedu;
 
 import com.mgedu.dao.NoteRepository;
 import com.mgedu.entity.Note;
-import com.myedu.api.INoteService;
-import com.myedu.dto.NoteBean;
+import com.mgedu.api.INoteService;
+import com.mgedu.dto.NoteBean;
 import org.apache.commons.beanutils.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
  * @author heyanjing
  * date:2018-12-07 2018/12/7:15:46
  */
-@Service("noteService")
+@Service
 public class NoteService implements INoteService {
     @Autowired
     NoteRepository noteRepository;

@@ -1,4 +1,4 @@
-package com.myedu.dto;
+package com.mgedu.dto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
